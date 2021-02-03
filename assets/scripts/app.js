@@ -76,7 +76,7 @@ class ShoppingCart extends Component{// in javascript we can only inherit from o
     //return cartEl;
   }
 }
-class ProductItem {
+class ProductItem extends Component{
   constructor(product) {
     this.product = product;
   }
